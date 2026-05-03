@@ -1,9 +1,9 @@
 # TSUNDERE
 
-run these command for more infomation
+download the standalone exe file
+then run these command for more infomation
 windows:
 ```bash
-cd dist
 tsundere-window.exe help
 ```
 linux:
