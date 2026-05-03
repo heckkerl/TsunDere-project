@@ -1,7 +1,7 @@
 # TSUNDERE
 
 download the standalone exe file
-then run these command for more infomation
+then run these command for more infomation\n
 windows:
 ```bash
 tsundere-window.exe help
