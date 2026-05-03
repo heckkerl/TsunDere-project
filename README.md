@@ -1,15 +1,14 @@
-# trs
+# TSUNDERE
 
-To install dependencies:
-
+run these command for more infomation
+windows:
 ```bash
-bun install
+cd dist
+tsundere-window.exe help
+```
+linux:
+
+``` bash
+tsundere-linux help
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.12. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
