@@ -1,0 +1,7 @@
+target/
+.env
+dist/
+*.txt
+*.json
+node_modules/
+maps/
