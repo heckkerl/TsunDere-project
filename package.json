@@ -1,5 +1,5 @@
 {
-    "name": "trs",
+    "name": "tsundere",
     "module": "index.ts",
     "type": "module",
     "private": true,
@@ -10,9 +10,7 @@
     "peerDependencies": {
         "typescript": "^5"
     },
-    "scripts": {
-        "build": "cargo build --release && cp target/release/libtrs.so trs.node"
-    },
+    "scripts": {},
     "dependencies": {
         "@inquirer/prompts": "^8.4.2",
         "boxen": "^8.0.1",

@@ -1,14 +1,24 @@
 [package]
-name = "trs"
+name = "tsundere"
 version = "0.1.0"
 edition = "2024"
 
-[lib]
-crate-type = ["cdylib"]
+# [lib]
+# crate-type = ["cdylib"]
 
 [dependencies]
-napi = "2"
-napi-derive = "2"
+clap = {version = "4", features = ["derive"]}
+indicatif = {version = "0.17", features = ["tokio"]}
+console = "0.15"
+tokio = {version = "1", features = ["full"]}
+anyhow = "1"
+cliux = "0.5.1"
+promptuity = "0.0.5"
+rquest = "5.1.0"
+rquest-util = "2.2.1"
+regex = "1.12.3"
+# napi = "2"
+# napi-derive = "2"
 
-[build-dependencies]
-napi-build = "2"
+# [build-dependencies]
+# napi-build = "2"
